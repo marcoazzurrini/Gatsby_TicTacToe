@@ -33,5 +33,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Poppins, Source Sans Pro"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
   ],
 }
